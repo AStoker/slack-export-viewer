@@ -1,0 +1,9 @@
+<template>
+  <header>Nav</header>
+  <aside>
+    <compose view-model="./channel-list/channel-list"></compose>
+  </aside>
+  <article>
+    <compose view-model="./channel-viewer/channel-viewer" model.bind="selectedChannel"></compose>
+  </article>
+</template>
